@@ -20,7 +20,7 @@ public class ItemService {
 
     }
 
-    public List<Item> findItem() {
+    public List<Item> findItems() {
         return itemRepository.findAll();
     }
 
